@@ -171,7 +171,9 @@ ForestDB is a key-value storage engine developed by Couchbase Caching and Storag
 ### Academia Project
 * [Amazon/Dynamo: Amazon's Highly Available Key-Value Store, SOSP07](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 * [Voldemort](https://github.com/voldemort/voldemort)
+* [Paper: Serving Large-scale Batch Computed Data with Project Voldemort,fast12](<https://www.usenix.org/legacy/event/fast12/tech/tech.html#Sumbaly>)
 > An open source clone of Amazon's Dynamo. http://project-voldemort.com
+
 * [Dynomite](https://github.com/Netflix/dynomite)
 > A generic dynamo implementation for different k-v storage engines
 * [Pynamo: Exploring the Dynamo Paper in Python](https://www.lurklurk.org/pynamo/pynamo.html)
@@ -296,6 +298,10 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 	* [Github, masstree](https://github.com/kohler/masstree-beta)
 	* [Github, masstree](https://github.com/rmind/masstree)
 
+#### vt-tree
+* [VT-tree]
+* Paper: [Building Workload-Independent Storage with VT-Trees, fast13](<https://www.usenix.org/conference/fast13/technical-sessions/presentation/shetty>)
+
 
 ### New H/W
 #### NVM
@@ -346,8 +352,10 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 ---
 
 * [SkimpyStash: RAM space skimpy key-value store on flash-based storage, Sigmod13](https://dl.acm.org/citation.cfm?id=1989327)
+---
 
-
+* [FlashStore: High Throughput Persistent Key-Value Store, vldb10](<http://www.vldb.org/pvldb/vldb2010/papers/I04.pdf>)
+---
 
 #### HPC
 * [MDHIM: A Parallel Key/Value Framework for HPC](https://www.usenix.org/conference/hotstorage15/workshop-program/presentation/greenberg)
@@ -377,6 +385,10 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 * [Badger](https://github.com/dgraph-io/badger)
 > BadgerDB is an embeddable, persistent, simple and fast key-value (KV) database written in pure Go. 
 > Badger’s design is based on a paper titled WiscKey: Separating Keys from Values in SSD-conscious Storage.
+---
+
+* [Facebook/Haystack: Finding a Needle in Haystack: Facebook's Photo Storage, osdi10](https://www.usenix.org/legacy/events/osdi10/tech/tech.html#Beaver)
+---
 
 * [Tucana: Design and Implementation of a Fast and Efficient Scale-up Key-value Store](https://www.usenix.org/conference/atc16/technical-sessions/presentation/papagiannis)
 > reduce CPU overhead
@@ -581,4 +593,8 @@ for Commits under Conflicts with Janus, OSDI16](http://www.cs.princeton.edu/~wll
 * [The Full Path to Full-Path Indeding, FAST2018](https://www.usenix.org/conference/fast18/presentation/zhan)
 
 * [Isotope: Transactional Isolation for Block Storage, FAST2016](https://www.usenix.org/conference/fast16/technical-sessions/presentation/shin)
+
+---
+
+
 
