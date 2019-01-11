@@ -4,7 +4,7 @@ tags:
     - kv-store
     - research
 date: 2018/07/07
-update: 2018/07/07
+update: 2019/01/11
 grammar_mermaid: true
 grammar_toc: true
 ---
@@ -227,6 +227,16 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 
 * [NetCache: Balancing Key-Value Stores with Fast In-Network Caching, SOSP17](http://sigops.org/sosp/sosp17/program.html)
 
+### index
+* [LevelDB++]
+* [Project-Secondary Indexing on Key-Value Stores](http://dblab.cs.ucr.edu/projects/KeyValueIndexes/)
+* [Paper-A Comparative Study of Secondary Indexing Techniques in LSM-based NoSQL Databases, sigmog18]
+---
+
+[SuRF]
+* [Paper-SuRF: Practical Range Query Filtering with Fast Succinct Tries](http://www.pdl.cmu.edu/PDL-FTP/Storage/surf_sigmod18.pdf)
+* [Project](https://github.com/efficient/SuRF)
+---
 
 ### DS & Algo
 #### radix tree
@@ -238,12 +248,24 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 
 * [The adaptive radix tree: ARTful indexing for main-memory databases, ICDE13](http://ieeexplore.ieee.org/abstract/document/6544812/)
 
-#### lsm-tree
-### table-store
+#### table-store
 * [Google/Bigtable]
 * [kdi](https://github.com/bluefish/kdi)
 > Distributed structured data interface inspired by Google's BigTable
 
+#### lsm-tree
+* [Dostoevsky, as a part of CrimsonDB]
+* [Paper-Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive Removal of Superfluous Merging, sigmod18](https://nivdayan.github.io/dostoevsky.pdf)
+* [Project-CrimsonDB, a self-designing key-value store](http://daslab.seas.harvard.edu/projects/crimsondb/)
+* [blog Dostoevsky: 一种更好的平衡 LSM 空间和性能的方式](https://www.jianshu.com/p/8fb8f2458253)
+* [Simple implementation of Dostoevsky Model with LevelDB](https://github.com/YuNanlong/myleveldb)
+---
+
+[MS/Faster]
+* [Project-Faster](https://github.com/Microsoft/FASTER)
+* [Paper-FASTER: A Concurrent Key-Value Store with In-Place Updates, sigmod18](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf)
+* [Zhihu-如何评价微软 FASTER key-value 存储引擎](https://www.zhihu.com/question/291185867)
+---
 
 * [TRIAD: Creating Synergies Between Memory, Disk and Log in Log Structured Key-Value Stores, ATC17](https://www.usenix.org/conference/atc17/technical-sessions/presentation/balmau)
 	* [Github](https://github.com/epfl-labos/TRIAD)
@@ -286,12 +308,19 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 * [Stratified B-trees and Versioned Dictionaries](https://www.usenix.org/legacy/events/hotstorage11/tech/tech.html#Twigg)
 ---
 
-* [The Bw-Tree: A B-tree for new hardware platforms, ICDE13](http://ieeexplore.ieee.org/abstract/document/6544834/)
 
 #### b+-tree
 * [Endurable Transient Inconsistency in Byte-Addressable Persistent B+-Tree, FAST2018](https://www.usenix.org/conference/fast18/presentation/hwang)
+---
 
 * [Resolving Journaling of Journal Anomaly in Android I/O: Multi-Version B-tree with Lazy Split, FAST14](https://www.usenix.org/conference/fast14/technical-sessions/presentation/kim-wook-hee)
+---
+
+####
+[bw-tree]
+* [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
+* [Project-SkeletonD, a lock-less thread safe in memory MVCC store written in Go](https://github.com/d4l3k/skeletondb)
+---
 
 #### masstree
 * [Cache Craftiness for Fast Multicore Key-Value Storage, EUROSYS12](https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf)
@@ -363,11 +392,18 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 
 
 #### multi-core
+* [Nibble]
+* [Project-Nibble-lsm](https://github.com/GTkernel/nibble-lsm)
+* [Paper-Concurrent Log-Structured Memory for Many-Core Key-Value Stores. vldb-vol11](http://www.vldb.org/pvldb/vol11/p458-merritt.pdf)
+
+---
+
 * [CMU/MICA: A Holistic Approach to Fast In-Memory Key-Value Storage, NSDI14](https://www.usenix.org/node/179748)
 	* [Github, mica](https://github.com/efficient/mica)
 	* [Github, mica2](https://github.com/efficient/mica2)
-
+---
 * [Fackbook/Tilera: Many-Core Key-Value Store, IEEE11](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/facebook-tilera-whitepaper.pdf)
+* 
 
 #### GPU
 * [MemcachedGPU: Scaling-up Scale-out Key-value Stores, socc15](http://ece.ubc.ca/~taylerh/doc/MemcachedGPU_SoCC15.pdf)
@@ -375,6 +411,11 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 
 #### persist memory
 * [Persistent Memcached: Bringing Legacy Code to Byte-Addressable Persistent Memory, HotStorage17](https://www.usenix.org/conference/hotstorage17/program/presentation/marathe)
+---
+
+
+* [pmemkv]
+* [pmemkv, a local/embedded key-value datastore optimized for persistent memory](https://github.com/pmem/pmemkv)
 
 
 
@@ -595,6 +636,4 @@ for Commits under Conflicts with Janus, OSDI16](http://www.cs.princeton.edu/~wll
 * [Isotope: Transactional Isolation for Block Storage, FAST2016](https://www.usenix.org/conference/fast16/technical-sessions/presentation/shin)
 
 ---
-
-
 
