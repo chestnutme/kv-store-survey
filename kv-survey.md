@@ -136,6 +136,11 @@ graph TD;
 
 
 ### Storage Library
+* [Myrocks](http://myrocks.io)
+	* [Github, mysql-5.6](https://github.com/facebook/MySQL-5.6)
+> MyRocks is a MySQL storage engine that integrates with RocksDB. It provides improved flash storage performance through efficiencies in reading, writing, and storing data.
+---
+
 * [WiredTiger](http://www.wiredtiger.com/)
 	* [Github, WiredTiger](https://github.com/wiredtiger/wiredtiger)
 	* [Developer Site](http://source.wiredtiger.com/)
@@ -144,6 +149,7 @@ WiredTiger supports row-oriented storage (where all columns of a row are stored 
 WiredTiger includes ACID transactions with standard isolation levels and durability at both checkpoint and fine-grained granularity.
 WiredTiger can be used as a simple key/value store, but also has a complete schema layer, including indices and projections.
 WiredTiger should be generally portable to any 64-bit system supporting the ANSI C99, POSIX 1003.1 and POSIX 1003.1c (threads extension) standards.
+---
 
 * [sophia](http://sophia.systems)
 	* [Github, sophia](http://sophia.systems)
