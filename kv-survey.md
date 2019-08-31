@@ -4,7 +4,7 @@ tags:
     - kv-store
     - research
 date: 2018/07/07
-update: 2019/01/11
+update: 2019/09/01
 grammar_mermaid: true
 grammar_toc: true
 ---
@@ -260,6 +260,9 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 > Distributed structured data interface inspired by Google's BigTable
 
 #### lsm-tree
+* [LSM-based Storage Techniques: A Survey, arxiv2019](https://arxiv.org/abs/1812.07527)
+> A great survey of state-of-art lsm-tree storage research
+
 * [Dostoevsky, as a part of CrimsonDB]
 * [Paper-Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive Removal of Superfluous Merging, sigmod18](https://nivdayan.github.io/dostoevsky.pdf)
 * [Project-CrimsonDB, a self-designing key-value store](http://daslab.seas.harvard.edu/projects/crimsondb/)
@@ -642,4 +645,7 @@ for Commits under Conflicts with Janus, OSDI16](http://www.cs.princeton.edu/~wll
 * [Isotope: Transactional Isolation for Block Storage, FAST2016](https://www.usenix.org/conference/fast16/technical-sessions/presentation/shin)
 
 ---
+
+"https://www.scylladb.com/"
+"https://yq.aliyun.com/articles/196025?spm=a2c4e.11153940.blogcont74128.40.213c41adTIfHxf"
 
