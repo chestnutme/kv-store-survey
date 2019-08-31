@@ -260,6 +260,9 @@ Research Project with many paper(Raft, Silk, RamCloud, etc.)
 > Distributed structured data interface inspired by Google's BigTable
 
 #### lsm-tree
+* [SILK: Preventing Latency Spikes in Log-Structured Merge Key-Value Stores, ATC19](https://www.usenix.org/conference/atc19/presentation/balmau)
+	* [Github](https://github.com/theoanab/SILK-USENIXATC2019)
+	
 * [LSM-based Storage Techniques: A Survey, arxiv2019](https://arxiv.org/abs/1812.07527)
 > A great survey of state-of-art lsm-tree storage research
 
@@ -645,7 +648,4 @@ for Commits under Conflicts with Janus, OSDI16](http://www.cs.princeton.edu/~wll
 * [Isotope: Transactional Isolation for Block Storage, FAST2016](https://www.usenix.org/conference/fast16/technical-sessions/presentation/shin)
 
 ---
-
-"https://www.scylladb.com/"
-"https://yq.aliyun.com/articles/196025?spm=a2c4e.11153940.blogcont74128.40.213c41adTIfHxf"
 
